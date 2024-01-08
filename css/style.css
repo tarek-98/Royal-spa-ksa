@@ -1,0 +1,240 @@
+:root {
+  --main-color: #E85E86;
+  --dark-color: #AA1F43;
+  --seconed-color: #00B00F;
+  --main-transition: 0.4s;
+}
+
+section {
+  min-height: 600px;
+  padding-top: 4rem;
+  position: relative;
+}
+
+section .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 85%;
+}
+
+.navbar img {
+  margin-top: -17px;
+  height: 50px;
+}
+
+.navbar .nav-link:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home {
+  background-image: url(../image/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 620px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home .deskripsi {
+  font-family: inherit;
+}
+
+.home .btn {
+  border-radius: 20px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.jumbotron {
+  padding-top: 10rem;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron a {
+  background-color: var(--seconed-color);
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+}
+
+.jumbotron a:hover {
+  color: white;
+}
+
+/*about*/
+.about a {
+  background-color: var(--seconed-color);
+  color: white;
+  padding: 10px 15px;
+  transition: var(--main-transition);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.about a:hover {
+  color: white;
+  background-color: var(--dark-color);
+}
+
+.about .call {
+  background-color: var(--main-color);
+}
+
+.about .image {
+  padding: 10px;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.about .image img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.layanan {
+  min-height: 800px;
+  background-image: url("https://royalspaksa.com/wp-content/uploads/2022/07/WhatsApp-Image-2022-01-13-at-11.57.40-PM.jpeg");
+  background-size: cover;
+  position: relative;
+}
+
+.layanan .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 80%;
+}
+
+.layanan .container {
+  position: relative;
+  z-index: 2;
+}
+
+.layanan .card {
+  border: 2px solid white;
+  justify-content: center;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.layanan .card:hover {
+  opacity: 70%;
+  border: 2px solid var(--main-color);
+}
+
+.layanan img {
+  border: none;
+  padding: 15px;
+}
+
+.layanan .star svg {
+  color: var(--main-color);
+}
+
+.layanan a {
+  background-color: var(--main-color);
+  color: white;
+  padding: 10px 15px;
+  transition: var(--main-transition);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.layanan a:hover {
+  color: white;
+  background-color: var(--dark-color);
+}
+
+.fasilitas {
+  background-color: #fff2cc;
+  padding-top: 5rem;
+}
+
+.fasilitas .logo {
+  background: #fff2cc;
+  border: none;
+}
+
+.fasilitas h5 {
+  color: #ea9999;
+}
+
+.hubungi {
+  background-color: goldenrod;
+  color: white;
+  min-height: 400px;
+}
+
+.hubungi .tel,
+.whatsapp {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-decoration: none;
+  font-size: 28px;
+  color: white;
+}
+
+.hubungi .tel,
+.whatsapp:hover {
+  color: white;
+}
+
+.footer {
+  width: auto;
+  min-height: 600px;
+  background-color: rgb(51, 51, 51);
+}
+
+.wabutton {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.hubungi button {
+  font-size: 25px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
